@@ -1,0 +1,94 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.logo{
+    width: 300px;
+    margin-right: auto;
+}
+.nav-bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #fff;
+    height: 83px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+    color: #000;
+    margin-bottom: 45px;
+    
+}
+.nav-link:hover{
+    color: crimson;
+}
+.email{
+    padding-top: 90px;
+    font-size: 18px;
+}
+.submit{
+  background-color: crimson;
+  color: #fff;
+  border-color: crimson;
+}
+h1 {
+    text-align: center;
+    padding-top: 105px;
+    font-size: 40px;
+}
+
+.img {
+    width: 255px;
+}
+.deepdish, .thin{
+    
+    width: 258px;
+    margin-right: 5px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.deepdish, .thin, .tiramisu{
+margin: 10px;
+
+}
+.address {
+    text-align: left;
+    width:360px;
+    max-width:90%;
+    margin:10px auto;
+}
+.order {
+    text-align: left;
+    width:150px;
+    max-width:90%;
+    margin:10px auto;
+    
+}
+.question{
+    font-size: 18px;
+}
